@@ -502,7 +502,7 @@ export default function Portfolio() {
                 className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
                   active === item.id
                     ? "bg-accent text-accent-foreground"
-                    : "text-muted-foreground hover:text-foreground hover:bg-secondary"
+                    : "text-muted-foreground hover:text-foreground hover:bg-secondary hover:cursor-pointer"
                 }`}
               >
                 {item.label}
